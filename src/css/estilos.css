@@ -1,3 +1,27 @@
+/* ------ LOGO ------ */
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.logo .imagem {
+    width: 100px;
+}
+
+
+.logo .titulo {
+    margin-left: 7px;
+    font-size: 17px;
+    font-weight: 800;
+    transition: 0.3s ease-in-out;
+}
+
+.logo .titulo:hover {
+    color: #1ED760;
+}
+
 /* ------ CABEÇALHO (header) ------ */
 
 .cabecalho {
@@ -8,27 +32,6 @@
     max-width: 1170px;
     margin: auto;
     flex-wrap: wrap;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-}
-
-.cabecalho .imagem {
-    width: 100px;
-}
-
-.logo .titulo {
-    margin-left: 7px;
-    font-size: 17px;
-    font-weight: 800;
-    transition: 0.3s ease-in-out;
-}
-
-.cabecalho .titulo:hover {
-    color: #1ED760;
 }
 
 .cabecalho .navegacao .menu {
