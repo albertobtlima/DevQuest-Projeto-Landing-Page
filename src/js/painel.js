@@ -14,19 +14,32 @@ const setaVoltar = document.getElementById('btn-voltar');
 const setaAvancar = document.getElementById('btn-avancar');
 let imagemAtual = 0;
 
-setaAvancar.addEventListener('click', function() {
+function esconderImagem() {
+    imagensPainel.forEach(imagem => {
+        imagem.classList.remove('mostrar')
+    });
+}
 
+function mostrarImagem() {
+    imagensPainel[imagemAtual].classList.add('mostrar');
+}
+
+setaAvancar.addEventListener('click', function() {
     // testa se o contador da imagemAtual é igual ao total de imagens.
     const totalDeImagens = imagensPainel.length -1;
     if(imagemAtual === totalDeImagens) {
         return;
     }
-
     imagemAtual++;
+    esconderImagem();
+    mostrarImagem();
+})
 
-    imagensPainel.forEach(imagem => {
-        imagem.classList.remove('mostrar')
-    })
-
-    imagensPainel[imagemAtual].classList.add('mostrar');
+setaVoltar.addEventListener('click', function() {
+    if(imagemAtual === 0) {
+        return;
+    }
+    imagemAtual--;
+    esconderImagem();
+    mostrarImagem();
 })
