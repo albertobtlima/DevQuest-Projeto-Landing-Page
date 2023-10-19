@@ -1,4 +1,4 @@
-# projeto-landing-page
+# Projeto Landing Page
 
 DevQuest - Projeto Landing Page
 Semana Dev em Dobro
