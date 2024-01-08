@@ -5,7 +5,7 @@ Semana Dev em Dobro
 
 Proje de site desenvolvido durante a semana dev em dobro.
 
-Acesso: <a href="[https://albertobtlima.github.io/Projeto-Landing-Page/](https://albertobtlima.github.io/DevQuest-Projeto-Landing-Page/)" target="_blank">Projeto Landing Page</a>
+Acesso: <a href="https://albertobtlima.github.io/DevQuest-Projeto-Landing-Page/" target="_blank">Projeto Landing Page</a> 
 
 Usados nesse projeto:
 <ul>
