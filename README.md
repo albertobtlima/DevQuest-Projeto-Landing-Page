@@ -3,6 +3,8 @@
 DevQuest - Projeto Landing Page
 Semana Dev em Dobro
 
+Acesso: <a>https://albertobtlima.github.io/Projeto-Landing-Page/</a>
+
 Proje de site desenvolvido durante a semana dev em dobro
 
 Usados nesse projeto:
